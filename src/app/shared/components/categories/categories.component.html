@@ -4,11 +4,20 @@
     <div class="collection-collapse-block-content">
         <div class="collection-brand-filter">
             <ul class="category-list">
-                <li *ngFor="let category of filterbyCategory">
-                    <a [routerLink]="['/shop/collection/left/sidebar']"
-                       [queryParams]="{ category: category}">
-                        {{ category }}
-                    </a>
+<!--                <li *ngFor="let category of filterbyCategory">-->
+<!--                    <a [routerLink]="['/shop/collection/left/sidebar']"-->
+<!--                       [queryParams]="{ category: category}">-->
+<!--                        {{ category }}-->
+<!--                    </a>-->
+<!--                </li>-->
+                <li >
+                    <a [routerLink]="['/shop/collection/left/sidebar']" >Home Furtiture</a>
+                </li>
+                <li >
+                    <a [routerLink]="['/shop/collection/left/sidebar']" >Outdoor Furtiture</a>
+                </li>
+                <li >
+                    <a [routerLink]="['/shop/collection/left/sidebar']" >Featured Furtiture</a>
                 </li>
             </ul>
         </div>

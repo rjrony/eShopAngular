@@ -34,62 +34,62 @@ export class NavService {
 
 	MENUITEMS: Menu[] = [
 		{
-			title: 'Voorraad', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Voorraad', type: 'link', active: false,
 		},
 		{
-			title: 'Zitmeubelen', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Zitmeubelen', type: 'link', active: false
 		},
 		{
-			title: 'Slapen', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Slapen', type: 'link', active: false
 		},
 		{
-			title: 'Tafels', type: 'sub', megaMenu: true, active: false
+			path: '/shop/collection/left/sidebar', title: 'Tafels', type: 'link', megaMenu: true, active: false
 		},
 		{
 			title: 'Kasten', type: 'sub', active: false, children: [
-				{ path: '/pages/Kledingkast', title: 'Kledingkast', type: 'link' },
-				{ path: '/pages/Dressoir', title: 'Dressoir', type: 'link' },
-				{ path: '/pages/Tv-Meubel', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
-				{ path: '/pages/Commodes', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Kledingkast', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Dressoir', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
 			]
 		},
 		{
 			title: 'Accessoires', type: 'sub', active: false, children: [
-				{ path: '/pages/Kledingkast', title: 'Kledingkast', type: 'link' },
-				{ path: '/pages/Dressoir', title: 'Dressoir', type: 'link' },
-				{ path: '/pages/Tv-Meubel', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
-				{ path: '/pages/Commodes', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' }
+				{ path: '/shop/collection/left/sidebar', title: 'Kledingkast', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Dressoir', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
 			]
 		}
 	];
 
 	LEFTMENUITEMS: Menu[] = [
 		{
-			title: 'Voorraad', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Voorraad', type: 'link', active: false,
 		},
 		{
-			title: 'Zitmeubelen', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Zitmeubelen', type: 'link', active: false
 		},
 		{
-			title: 'Slapen', type: 'sub', active: false
+			path: '/shop/collection/left/sidebar', title: 'Slapen', type: 'link', active: false
 		},
 		{
-			title: 'Tafels', type: 'sub', megaMenu: true, active: false
+			path: '/shop/collection/left/sidebar', title: 'Tafels', type: 'link', megaMenu: true, active: false
 		},
 		{
 			title: 'Kasten', type: 'sub', active: false, children: [
-				{ path: '/pages/Kledingkast', title: 'Kledingkast', type: 'link' },
-				{ path: '/pages/Dressoir', title: 'Dressoir', type: 'link' },
-				{ path: '/pages/Tv-Meubel', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
-				{ path: '/pages/Commodes', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Kledingkast', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Dressoir', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
 			]
 		},
 		{
 			title: 'Accessoires', type: 'sub', active: false, children: [
-				{ path: '/pages/Kledingkast', title: 'Kledingkast', type: 'link' },
-				{ path: '/pages/Dressoir', title: 'Dressoir', type: 'link' },
-				{ path: '/pages/Tv-Meubel', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
-				{ path: '/pages/Commodes', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' }
+				{ path: '/shop/collection/left/sidebar', title: 'Kledingkast', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Dressoir', type: 'link' },
+				{ path: '/shop/collection/left/sidebar', title: 'Tv-Meubel', type: 'link', badge: true, badgeText: 'new' },
+				{ path: '/shop/collection/left/sidebar', title: 'Commodes', type: 'link', badge: true, badgeText: 'new' },
 			]
 		}
 	];

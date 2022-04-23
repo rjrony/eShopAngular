@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@main
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
@@ -24,7 +24,8 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run build -- --prod
+          npm run build --prod
+        working-directory: .
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -52,4 +53,4 @@ jobs:
           app-name: 'decorweb'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: .
+          package: ./dist/multikart/browser
